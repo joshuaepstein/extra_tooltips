@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "extra_tooltips",
+  "version": "p1.0",
+
+  "name": "Tooltips",
+  "description": "Mod adds tooltips from a config file.",
+  "authors": [
+    "JoshuaEpstein"
+  ],
+  "contact": {
+    "homepage": "https://joshepstein.co.uk"
+  },
+
+  "license": "All Rights Reserved",
+  "icon": "assets/extra_tooltips/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "joshuaepstein.extra_tooltips.Main"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
